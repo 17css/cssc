@@ -1,0 +1,48 @@
+@keyframes override {
+  from {
+    color: green;
+  }
+  to {
+    color: green;
+  }
+}
+h1#head[id=head] {
+  color: #b967ff;
+}
+
+#head[class*=head] {
+  color: #05ffa1;
+}
+
+#head {
+  color: #01cdfe;
+}
+
+.head.head.head.head {
+  color: #ff71ce;
+}
+
+h1.head:first-child {
+  color: #e83043;
+}
+
+h1.head {
+  color: #fffb96;
+}
+
+h1.head {
+  color: #b967ff;
+}
+
+body div h1 {
+  color: #05ffa1;
+}
+
+div h1 {
+  color: #01cdfe;
+}
+
+h1 {
+  color: #ff71ce;
+}
+/*# sourceMappingURL=../maps/6.specificity/specificity.css.map */

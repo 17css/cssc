@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en" class="c-full-height">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid Demo</title>
+
+    <link rel="stylesheet" href="../shared-styles/common.css">
+    <link rel="stylesheet" href="../shared-styles/shared.css">
+
+    <link rel="stylesheet" href="grid.css">
+
+</head>
+
+<body class="c-body-text c-full-height">
+
+
+<div class="my-container c-full-height">
+    
+    <div class="grid" id="grid"></div>
+    <div class="grid-overlay-gradient"></div>
+
+</div>
+
+<div class="future-cop">
+    <h3 class="future">CSS</h3>
+    <h1 class="cop">GRID</h1>
+</div>
+
+<script>
+    let myGrid = document.getElementById('grid');
+    let cells = new Array();
+
+    for(let i = 0; i < 2000; i++) {
+        let cell = document.createElement('i');
+        cells.push(cell);
+        myGrid.appendChild(cell);
+    }
+    
+</script>
+
+
+
+
+<!-- <div class="vv-img"></div> -->
+</body>
+
+</html>

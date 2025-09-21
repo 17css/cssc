@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en" class="c-full-height">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex Demo</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../shared-styles/common.css">
+    <link rel="stylesheet" href="../shared-styles/shared.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="c-body-text c-full-height">  
+    <br><br>
+    <div class="c-container-fixed pos-relative c-p-bottom-md fancy-boxes" id="resizable">
+
+
+
+
+    <style>
+        .c-d-flex {
+            display: flex;
+            
+            /* justify-content: flex-start; */
+
+            /* align-items: flex-start; */
+
+            /* flex-direction: column;  */
+
+            flex-wrap: wrap;
+
+
+
+
+
+            
+            
+            /* height: 90px; */
+        }
+
+        .c-d-flex div{
+            flex-shrink: 0;
+            flex-grow: 1;
+
+            text-align: center;
+        }
+
+        .c-d-flex > :nth-child(1) {
+            /* flex-grow: 1; */
+            /* flex-shrink: 1;   */
+        }
+        
+        .c-d-flex > :nth-child(2) {
+            /* flex-grow: 1; */
+        }
+        
+        .c-d-flex > :nth-child(3) {
+            /* flex-grow: 1; */
+        }
+
+    </style>
+
+
+    <div class="c-d-flex">
+
+        <div><img src="lootbox.jpg" class="lootbox"></div>
+        <div><img src="lootbox.jpg" class="lootbox"></div>
+        <div><img src="lootbox.jpg" class="lootbox"></div>
+        <div><img src="lootbox.jpg" class="lootbox"></div>
+        <div><img src="lootbox.jpg" class="lootbox"></div>
+        <div><img src="lootbox.jpg" class="lootbox"></div>
+        <div><img src="lootbox.jpg" class="lootbox"></div>
+        <div><img src="lootbox.jpg" class="lootbox"></div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="vv-img"></div>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$( function() {
+  $( "#resizable" ).resizable();
+} );
+</script>
+</body>
+
+</html>

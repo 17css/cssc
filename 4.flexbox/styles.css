@@ -1,0 +1,14 @@
+.c-d-flex,
+.c-clearfix {
+  border: 3px solid #b967ff;
+}
+.c-d-flex > div,
+.c-clearfix > div {
+  border: 3px solid #01cdfe;
+}
+
+.lootbox {
+  width: 100px;
+  vertical-align: top;
+}
+/*# sourceMappingURL=../maps/4.flexbox/styles.css.map */

@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en" class="c-full-height">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid</title>
+
+    <link rel="stylesheet" href="../shared-styles/common.css">
+    <link rel="stylesheet" href="../shared-styles/shared.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="c-body-text c-full-height">
+    <div class="c-container-fixed p-relative c-p-top-lg" style="height: 90vh; resize: both; overflow: auto;">
+        
+
+        <style>
+            .my-grid {
+                display: grid;
+                grid-template-columns: 300px 1fr 1fr;               
+                grid-template-rows: 200px 1fr 200px;
+
+
+
+
+                grid-gap: 10px;
+
+                
+                
+                
+            }
+
+.my-grid > :nth-child(1) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    /* grid-column-start: span 4; */
+}
+            
+            /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(4, 100px) ; */
+            
+
+        </style>
+
+
+        
+
+
+        <div class="my-grid" id="my-grid">
+            <div class="hand-box"><span class="vectro">1</span></div>
+            <div class="hand-box"><span class="vectro">2</span></div>
+            <div class="hand-box"><span class="vectro">3</span></div>
+            <div class="hand-box"><span class="vectro">4</span></div>
+            <div class="hand-box"><span class="vectro">5</span></div>
+            <div class="hand-box"><span class="vectro">6</span></div>
+            <div class="hand-box"><span class="vectro">7</span></div>
+            <div class="hand-box"><span class="vectro">8</span></div>
+            <div class="hand-box"><span class="vectro">9</span></div>
+        </div>
+
+
+
+
+
+        <!-- <br><br>
+        <div class="c-d-flex c-text-white" style="flex-wrap: wrap;">
+            <div class="hand-box"><img src="lootbox.jpg" class="lootbox"></div>
+            <div class="hand-box"><img src="lootbox.jpg" class="lootbox"></div>
+            <div class="hand-box"><img src="lootbox.jpg" class="lootbox"></div>
+            <div class="hand-box"><img src="lootbox.jpg" class="lootbox"></div>
+            <div class="hand-box">問ツヱシ</div>
+            <div class="hand-box">ぎイむる</div>
+            <div class="hand-box">でス<br>ぜル竹<br>トヒ<br>アフ</div>
+            <div class="hand-box">あてゅぐ</div>
+            <div class="hand-box"><img src="lootbox.jpg" class="lootbox"></div>
+            <div class="hand-box"><img src="lootbox.jpg" class="lootbox"></div>
+            <div class="hand-box"><img src="lootbox.jpg" class="lootbox"></div>
+            <div class="hand-box">ハトヌク</div>
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    </div>
+
+<script src="align-demo.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); -->

@@ -1,0 +1,120 @@
+.p-relative {
+    position: relative;
+}
+
+.o-hidden {
+    overflow: hidden;
+}
+
+.hand-box {
+    border-radius: 255px 23px 225px 24px/21px 225px 24px 255px;
+    // border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
+    &.lined.thick{
+        border: solid 7px #41403E;
+    }
+    &.dotted.thick{
+        border: dotted 5px #41403E;
+    }
+    &.dashed.thick{
+        border: dashed 5px #41403E;
+    }
+    &.lined.thin{
+        border: solid 2px #41403E;
+    }
+    &.dotted.thin{
+        border: dotted 2px #41403E;
+    }
+    &.dashed.thin{
+        border: dashed 2px #41403E;
+    }
+}
+
+.bd-thick {
+    border-width: 3px;
+}
+
+
+.vv-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 16vh;
+    z-index: -1;
+    background-image: url(/assets/15221451778931260229992.jpg);
+    background-position: center top;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-size: 373px;
+    filter: blur(5px) saturate(194%);
+}
+
+$vv-colors: (
+    pink: #ff71ce,
+    blue: #01cdfe,
+    green: #05ffa1,
+    violet: #b967ff,
+    yellow: #fffb96,
+
+    pink-punk: #FF6AD5,
+    vi: #C774E8,
+    light-purple: #AD8CFF,
+    blue-suede: #8795E8,
+    tear-drop: #94D0FF,
+
+    s1: #7BF8FF,
+    s2: #00CEDA,
+    s3: #E1AEFF,
+    s4: #CB74FF,
+    s5: #FF85E1,
+    s6: #FF43D1
+);
+
+.vv-bd {
+    border: 1px solid grey;
+}
+
+@each $name, $color in $vv-colors {
+
+    .vv-bd-#{$name}.vv-bd-#{$name}.vv-bd-#{$name} {
+        border-color: $color;
+    }
+    .vv-bg-#{$name}.vv-bg-#{$name}.vv-bg-#{$name} {
+        background-color: $color;
+    }
+}
+
+
+.arrow {
+    position: fixed;
+    bottom: 0;
+    left: 150px;
+    width: calc(50% - 200px);
+    height: 40%;
+    /* uncomment to see the arrow's rectangle bg*/
+  /*   background: white;  */
+  }
+  
+  .arrow__body {
+    width: 100%;
+    height: 95%;
+    margin-left: 11px;
+    border-width: 5px 0 0 5px;
+    border-style: dashed;
+    border-color: var(--highlight-color);
+    border-top-left-radius: 100%;
+  }
+  
+  .arrow__body::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 20px 15px 0;
+    border-style: solid;
+    border-color: var(--highlight-color) transparent transparent;
+  }
+
+
+#__bs_notify__ { top:auto !important; bottom:0 !important; right: 0 !important; border-radius: 15px !important;  }

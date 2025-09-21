@@ -1,0 +1,16 @@
+.c-clearfix {
+  border-radius: 255px 15px 15px 15px/15px 225px 76px 255px;
+}
+.c-clearfix::before, .c-clearfix::after {
+  display: block;
+  border-bottom: 2px solid #2378e7;
+}
+
+.c-container-fixed {
+  max-width: 720px;
+}
+
+.pos-relative {
+  position: relative;
+}
+/*# sourceMappingURL=../maps/3.float/styles.css.map */

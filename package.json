@@ -1,0 +1,31 @@
+{
+  "name": "css-cours",
+  "version": "0.0.1",
+  "description": "Css cours for Billfold",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.ipreo.com/andrii-vakulenko/css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "bootstrap": "^5.3.8",
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.1",
+    "gulp-notify": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "sass": "^1.91.0"
+  }
+}
