@@ -86,35 +86,35 @@ $vv-colors: (
 }
 
 
-.arrow {
-    position: fixed;
-    bottom: 0;
-    left: 150px;
-    width: calc(50% - 200px);
-    height: 40%;
-    /* uncomment to see the arrow's rectangle bg*/
-  /*   background: white;  */
-  }
+// .arrow {
+//     position: fixed;
+//     bottom: 0;
+//     left: 150px;
+//     width: calc(50% - 200px);
+//     height: 40%;
+//     /* uncomment to see the arrow's rectangle bg*/
+//     background: white;  
+//   }
   
-  .arrow__body {
-    width: 100%;
-    height: 95%;
-    margin-left: 11px;
-    border-width: 5px 0 0 5px;
-    border-style: dashed;
-    border-color: var(--highlight-color);
-    border-top-left-radius: 100%;
-  }
+//   .arrow__body {
+//     width: 100%;
+//     height: 95%;
+//     margin-left: 11px;
+//     border-width: 5px 0 0 5px;
+//     border-style: dashed;
+//     border-color: var(--highlight-color);
+//     border-top-left-radius: 100%;
+//   }
   
-  .arrow__body::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    border-width: 20px 15px 0;
-    border-style: solid;
-    border-color: var(--highlight-color) transparent transparent;
-  }
+//   .arrow__body::after {
+//     content: '';
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     border-width: 20px 15px 0;
+//     border-style: solid;
+//     border-color: var(--highlight-color) transparent transparent;
+//   }
 
 
 #__bs_notify__ { top:auto !important; bottom:0 !important; right: 0 !important; border-radius: 15px !important;  }

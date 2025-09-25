@@ -15,7 +15,7 @@ strong b
 a
 button
 img
-input textarea label (changed in cupcake)
+input textarea label
 br
 
 
