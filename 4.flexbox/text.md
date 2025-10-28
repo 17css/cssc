@@ -1,6 +1,5 @@
 
-draw container with floats
-repalace with flexbox
+talk about block elements
 
 show demo
 
